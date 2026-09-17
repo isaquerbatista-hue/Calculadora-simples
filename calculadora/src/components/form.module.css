@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.formContainer {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formContainer h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #333333;
+}
+
+.inputGroup input,
+.inputGroup select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+.inputGroup select {
+  cursor: pointer;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.btnCalcular,
+.btnLimpar {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btnCalcular {
+  background-color: #007bff;
+  color: white;
+}
+
+.btnCalcular:hover {
+  background-color: #0056b3;
+}
+
+.btnLimpar {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btnLimpar:hover {
+  background-color: #5a6268;
+}
+
+.resultado {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+  min-height: 24px;
+}
